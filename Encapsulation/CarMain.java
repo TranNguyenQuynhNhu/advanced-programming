@@ -4,8 +4,8 @@ class Car {
     private int year;
 
     public Car() {
-        brand = "unknown";
-        model = "unknown";
+        brand = "Unknown";
+        model = "Unknown";
         year = 2000;
     }
 
@@ -45,7 +45,7 @@ class Car {
         System.out.println("Year: " + year);
         System.out.println();
     }
-};
+}
 
 public class CarMain {
     public static void main(String[] args) {
